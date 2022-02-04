@@ -23,9 +23,9 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Settings</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Link</a></li>
-            <li><a class="dropdown-item" href="#">Another link</a></li>
-            <li><a class="dropdown-item" href="#">A third link</a></li>
+            <li><a class="dropdown-item" href="#">Settings1</a></li>
+            <li><a class="dropdown-item" href="#">Settings2</a></li>
+            <li><a class="dropdown-item" href="#">Settings3</a></li>
           </ul>
         </li>
       </ul>
