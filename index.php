@@ -33,9 +33,11 @@
   </div>
 </nav>
 
-<div class="container-fluid mt-3">
+<div class="container mt-3">
   <h1>TechzQuad Welcome Aboard!</h1>
- 
+  <div class="alert alert-dark">
+    <strong>Developed By TechzQuad</strong> | We Are The Solution
+  </div>
 </div>
 
 </body>
