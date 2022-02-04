@@ -35,10 +35,10 @@
 
 <div class="container mt-3">
   <h1>TechzQuad Welcome Aboard!</h1>
-  <div class="alert alert-dark">
+ 
+</div>
+<div class="alert alert-dark container-fluid">
     <strong>Developed By TechzQuad</strong> | We Are The Solution
   </div>
-</div>
-
 </body>
 </html>
