@@ -37,7 +37,7 @@
   <h1>TechzQuad Welcome Aboard!</h1>
  
 </div>
-<div class="alert alert-dark container-fluid">
+<div class="alert alert-dark container">
     <strong>Developed By TechzQuad</strong> | We Are The Solution
   </div>
 </body>
