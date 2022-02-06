@@ -21,6 +21,14 @@
       </tr>
     </thead>
     <tbody>
+    <tr>
+        <td>Mark Corral Banilarskie</td>
+        <td>Bandila Proper</td>
+        <td>220A</td>
+        <td>Member</td>
+        <td><span class="badge bg-success">Voted</span></td>
+        <td><a href="#">View Info</a></td>
+      </tr>
       <tr>
         <td>Mark Corral Banilarskie</td>
         <td>Bandila Proper</td>
@@ -35,7 +43,7 @@
         <td>220A</td>
         <td>Coordinator</td>
         <td><span class="badge bg-success">Voted</span></td>
-        <td><a href="#">View Info</a>&nbsp;<a href="#">View Leaders</a></a></td>
+        <td><a href="#">View Info</a>&nbsp;<a href="#">View Leaders</a></td>
       </tr>
       <tr>
         <td>Mark Corral hanskie</td>
