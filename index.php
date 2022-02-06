@@ -13,22 +13,22 @@
 <div class="row">
     <div class="col-sm-3">
     <div class="card bg-info text-white">
-        <div class="card-body"><h2>VOTED</h2><h5>500</h5></div>
+        <div class="card-body"><h2>VOTED</h2><h5>20,000</h5></div>
         </div>
     </div>
     <div class="col-sm-3">
     <div class="card bg-info text-white">
-        <div class="card-body">Info card</div>
+        <div class="card-body"><h2>NOT VOTED</h2><h5>1,000</h5></div>
         </div>
     </div>
     <div class="col-sm-3">
     <div class="card bg-info text-white">
-        <div class="card-body">Info card</div>
+        <div class="card-body"><h2>WINNING MARGIN</h2><h5>80%</h5></div>
         </div>
     </div>
     <div class="col-sm-3">
     <div class="card bg-info text-white">
-        <div class="card-body">Info card</div>
+        <div class="card-body"><h2>LOSING MARGIN</h2><h5>20%</h5></div>
         </div>
     </div>
   </div>
