@@ -56,6 +56,9 @@
     </tbody>
   </table>
 </div>
+<br><br>
+<div class="row">
 <?php include'incl/footer.php';?>
+</div>
 </body>
 </html>
