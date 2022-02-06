@@ -8,7 +8,7 @@
 
 
 <div class="container mt-3">
-  <h1>Leaders Table</h1>
+  <h1>Voter's Table</h1>
   <table class="table table-bordered">
     <thead>
       <tr>
