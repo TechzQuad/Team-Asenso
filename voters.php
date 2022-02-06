@@ -27,7 +27,23 @@
         <td>220A</td>
         <td>Leader</td>
         <td><span class="badge bg-success">Voted</span></td>
-        <td><a href="#">View</a></td>
+        <td><a href="#">View Info</a>&nbsp;<a href="#">View Members</a></td>
+      </tr>
+      <tr>
+        <td>Mark Corral Jolinarskie</td>
+        <td>Bandila Proper</td>
+        <td>220A</td>
+        <td>Coordinator</td>
+        <td><span class="badge bg-success">Voted</span></td>
+        <td><a href="#">View Info</a>&nbsp;<a href="#">View Leaders</a></a></td>
+      </tr>
+      <tr>
+        <td>Mark Corral hanskie</td>
+        <td>Bandila Proper</td>
+        <td>220A</td>
+        <td>Cluster Leader</td>
+        <td><span class="badge bg-success">Voted</span></td>
+        <td><a href="#">View Info</a>&nbsp;<a href="#">View Coordinators</a></a></td>
       </tr>
     </tbody>
   </table>
