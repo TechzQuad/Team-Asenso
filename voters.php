@@ -40,7 +40,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
  
   while($row = $result->fetch_assoc()) {
-    echo "<tr><td>".$row["name"]."</td>
+    echo "<tr><td>".$row["name"]." &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;".$row["standing"]."</td>
     <td>".$row["address"]."</td>
     <td>".$row["pcn"]."</td>
     <td>".$row["pos"]."</td>
