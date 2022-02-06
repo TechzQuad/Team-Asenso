@@ -11,6 +11,6 @@
   <h1>TechzQuad Welcome Aboard!</h1>
  
 </div>
-<?php include'incl/links.php';?>
+<?php include'incl/footer.php';?>
 </body>
 </html>
