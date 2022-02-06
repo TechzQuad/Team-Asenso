@@ -40,7 +40,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
  
   while($row = $result->fetch_assoc()) {
-    echo "<tr><td>".$row["name"]." &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;".$row["standing"]."</td>
+    echo "<tr><td>".$row["name"]." &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;".$row["standing"]." <span class='badge bg-success'>".$row["status"]."</span></td>
     <td>".$row["address"]."</td>
     <td>".$row["pcn"]."</td>
     <td>".$row["pos"]."</td>
