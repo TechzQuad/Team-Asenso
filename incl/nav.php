@@ -10,7 +10,7 @@
           <a class="nav-link" href="https://onetechzquad.tech">Dashboard</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://onetechzquad.tech/voters.php">Dashboard</a>
+          <a class="nav-link" href="https://onetechzquad.tech/voters.php">Voter's List</a>
         </li>
       </ul>
     </div>
