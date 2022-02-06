@@ -7,7 +7,7 @@
 
 <?php include'incl/nav.php';?>
 
-<div class="container mt-3">
+<div class="container mt-12">
   <h1>Municipality of Toboso May 2022 Election Result</h1>
   <div class="row">
     <div class="col-md-12">
