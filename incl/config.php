@@ -1,8 +1,6 @@
 <?php
-
-    define("H", "localhost");
-    define("U", "u722023368_techzquad");
-    define("P", "@TechzQuad1");
-    define("D", "u722023368_toboso");
-
+$servername = "localhost";
+$username = "u722023368_techzquad";
+$password = "@TechzQuad1";
+$dbname = "u722023368_toboso";
 ?>
