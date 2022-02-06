@@ -22,7 +22,7 @@
     </thead>
     <tbody>
     <?php
-require_once 'incl/config.php';
+include 'incl/config.php';
 $sql = "SELECT standing,name,address,pcn,pos,status FROM voters";
 $qry = $con->prepare($sql);
 $qry->execute();
