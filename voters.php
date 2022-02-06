@@ -8,7 +8,7 @@
 
 
 <div class="container mt-3">
-  <h1>Voter's Table</h1><a href="#" class="btn btn-secondary pull-right">Browse QR>></a><br>
+  <h1>Voter's Table</h1><a href="#" class="btn btn-secondary pull-right">Browse QR>></a><br><br>
   <table class="table table-bordered">
     <thead>
       <tr>
