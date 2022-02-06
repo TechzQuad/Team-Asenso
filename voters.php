@@ -21,6 +21,22 @@
       </tr>
     </thead>
     <tbody>
+    <?php
+require_once 'incl/config.php';
+$sql = "SELECT standing,name,address,pcn,pos,status FROM voters";
+$qry = $con->prepare($sql);
+$qry->execute();
+$qry->bind_result($standing,$name,$address,$pcn,$pos,$status);
+while($qry->fetch()){
+echo"<tr>
+<td>$name &nbsp;$standing</td>
+<td>$adddress</td>
+<td>$pcn</td>
+<td>$pos</td>
+<td><span class='badge bg-success'>$status</span></td>
+<td><a href='#'>View Info</a></td>
+</tr>
+<tr>";?>
     <tr>
         <td>Mark Corral Banilarskie &nbsp;AC</td>
         <td>Bandila Proper</td>
