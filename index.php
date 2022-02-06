@@ -8,7 +8,7 @@
 <?php include'incl/nav.php';?>
 
 <div class="container mt-3">
-  <h1>TechzQuad Welcome Aboard!</h1>
+  <h1>Municipality of Toboso May 2022 Election Result</h1>
  
 </div>
 <?php include'incl/footer.php';?>
