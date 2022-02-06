@@ -34,7 +34,7 @@
         <td>Bandila Proper</td>
         <td>220A</td>
         <td>Leader</td>
-        <td><span class="badge bg-success">Voted</span></td>
+        <td><span class="badge bg-danger">Not Voted</span></td>
         <td><a href="#">View Info</a>&nbsp;<a href="#">View Members</a></td>
       </tr>
       <tr>
