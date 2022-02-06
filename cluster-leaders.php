@@ -17,7 +17,7 @@
         <th>Precinct #</th>
         <th>Position</th>
         <th>Status</th>
-        <th><a href="View"></a></th>
+        <th>Action</th>
       </tr>
     </thead>
     <tbody>
@@ -27,6 +27,7 @@
         <td>220A</td>
         <td>Cluster Leaders</td>
         <td>Voted</td>
+        <td><a href="#">View</a></td>
       </tr>
     </tbody>
   </table>
