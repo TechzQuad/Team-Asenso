@@ -25,7 +25,7 @@
         <td>Mark Corral Banilarskie</td>
         <td>Bandila Proper</td>
         <td>220A</td>
-        <td>Leader</td>
+        <td>Cluster Leaders</td>
         <td>Voted</td>
       </tr>
     </tbody>
