@@ -11,17 +11,22 @@
   <h1>Municipality of Toboso May 2022 Election Result</h1>
   <br>
 <div class="row">
-    <div class="col-sm-4">
+    <div class="col-sm-3">
     <div class="card bg-info text-white">
         <div class="card-body">Info card</div>
         </div>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-3">
     <div class="card bg-info text-white">
         <div class="card-body">Info card</div>
         </div>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-3">
+    <div class="card bg-info text-white">
+        <div class="card-body">Info card</div>
+        </div>
+    </div>
+    <div class="col-sm-3">
     <div class="card bg-info text-white">
         <div class="card-body">Info card</div>
         </div>
