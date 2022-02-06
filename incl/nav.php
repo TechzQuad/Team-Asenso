@@ -10,7 +10,7 @@
           <a class="nav-link" href="https://onetechzquad.tech">Dashboard</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Voters</a>
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Voters List</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="https://onetechzquad.tech/cluster-leaders.php">Cluster Leaders</a></li>
             <li><a class="dropdown-item" href="https://onetechzquad.tech/coordinators.php">Coordinators</a></li>
