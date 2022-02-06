@@ -21,39 +21,39 @@
       </tr>
     </thead>
     <tbody>
+    <?php
+$servername = "localhost";
+$username = "u722023368_techzquad";
+$password = "@TechzQuad1";
+$dbname = "u722023368_toboso";
 
-    <tr>
-        <td>Mark Corral Banilarskie &nbsp;AC</td>
-        <td>Bandila Proper</td>
-        <td>220A</td>
-        <td>Member</td>
-        <td><span class="badge bg-success">Voted</span></td>
-        <td><a href="#">View Info</a></td>
-      </tr>
-      <tr>
-        <td>Mark Corral Banilarskie</td>
-        <td>Bandila Proper</td>
-        <td>220A</td>
-        <td>Leader</td>
-        <td><span class="badge bg-danger">Not Voted</span></td>
-        <td><a href="#">View Info</a>&nbsp;<a href="#">View Members</a></td>
-      </tr>
-      <tr>
-        <td>Mark Corral Jolinarskie</td>
-        <td>Bandila Proper</td>
-        <td>220A</td>
-        <td>Coordinator</td>
-        <td><span class="badge bg-success">Voted</span></td>
-        <td><a href="#">View Info</a>&nbsp;<a href="#">View Leaders</a></td>
-      </tr>
-      <tr>
-        <td>Mark Corral hanskie &nbsp;C</td>
-        <td>Bandila Proper</td>
-        <td>220A</td>
-        <td>Cluster Leader</td>
-        <td><span class="badge bg-success">Voted</span></td>
-        <td><a href="#">View Info</a>&nbsp;<a href="#">View Coordinators</a></a></td>
-      </tr>
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = "SELECT standing,name,address,pcn,status FROM voters";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+ 
+  while($row = $result->fetch_assoc()) {
+    echo "<tr><td>".$row["name"]." ".$row["standing"]."</td>
+    <td>".$row["address"]."</td>
+    <td>".$row["pcn"]."</td>
+    <td>".$row["status"]."</td>
+    <td><a href='#'>View Info</a>&nbsp;<a href='#'>View Members</a></td>
+    </tr>";
+  }
+  
+} else {
+  echo "0 results";
+}
+$conn->close();
+?>
+    
     </tbody>
   </table>
 </div>
