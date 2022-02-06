@@ -26,7 +26,7 @@
         <td>Bandila Proper</td>
         <td>220A</td>
         <td>Cluster Leaders</td>
-        <td>Voted</td>
+        <td><span class="badge bg-success">Voted</span></td>
         <td><a href="#">View</a></td>
       </tr>
     </tbody>
