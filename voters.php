@@ -46,7 +46,7 @@
         <td><a href="#">View Info</a>&nbsp;<a href="#">View Leaders</a></td>
       </tr>
       <tr>
-        <td>Mark Corral hanskie</td>
+        <td>Mark Corral hanskie &nbsp;C</td>
         <td>Bandila Proper</td>
         <td>220A</td>
         <td>Cluster Leader</td>
