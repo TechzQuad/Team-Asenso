@@ -23,6 +23,8 @@
     </div>
   </div>
 </div>
+<div class="row">
 <?php include'incl/footer.php';?>
+</div>
 </body>
 </html>
