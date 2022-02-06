@@ -34,16 +34,17 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT standing,name,address,pcn,status FROM voters";
+$sql = "SELECT standing,name,address,pcn,position,status FROM voters";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
  
   while($row = $result->fetch_assoc()) {
-    echo "<tr><td>".$row["name"]." ".$row["standing"]."</td>
+    echo "<tr><td>".$row["name"]." <span class='badge bg-success'>".$row["standing"]."</span></td>
     <td>".$row["address"]."</td>
     <td>".$row["pcn"]."</td>
-    <td>".$row["status"]."</td>
+    <td>".$row["position"]."</td>
+    <td><span class='badge bg-success'>".$row["status"]."</span></td>
     <td><a href='#'>View Info</a>&nbsp;<a href='#'>View Members</a></td>
     </tr>";
   }
