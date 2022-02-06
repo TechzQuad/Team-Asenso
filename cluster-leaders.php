@@ -4,7 +4,7 @@
 <?php include'incl/links.php';?>
 </head>
 <body>
-<?php include'incl/footer.php';?>
+<?php include'incl/nav.php';?>
 
 
 <div class="container mt-3">
