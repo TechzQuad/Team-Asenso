@@ -1,0 +1,3 @@
+database : toboso
+username : techzquad
+pass : @TechzQuad1
